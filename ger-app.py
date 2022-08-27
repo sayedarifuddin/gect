@@ -8,8 +8,7 @@ def get_model():
 
 tool = get_model()
 
-st.markdown("<h1 style='text-align: center; color: green;'>Grammar _Error_ Counter (en-US)</h1>", unsafe_allow_html=True)
-st.markdown('Streamlit is **_really_ cool**.')
+st.markdown("<h2 style='text-align: center; color: green;'>Grammar Error Counter (en-US)</h2>", unsafe_allow_html=True)
 with st.form(key='my_form'):
     prompt = st.text_area(label='Type something...', value="")
     submit_button = st.form_submit_button(label='Submit')
