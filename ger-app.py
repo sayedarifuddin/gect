@@ -11,7 +11,7 @@ tool = get_model()
 st.markdown("<h1 style='text-align: center; color: green;'>Grammar Error Counter (en-US)</h1>", unsafe_allow_html=True)
 
 with st.form(key='my_form'):
-    prompt = st.text_area(label='Type something...', value="")
+    prompt = st.text_area(label='_Type_ *something*...', value="")
     submit_button = st.form_submit_button(label='Submit')
     if submit_button:
         m = tool.check(prompt)
