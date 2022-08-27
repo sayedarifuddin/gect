@@ -14,5 +14,8 @@ with st.form(key='my_form'):
     prompt = st.text_area(label='Enter sentence', value=" ")
     submit_button = st.form_submit_button(label='Submit')
     if submit_button:
-        m = tool.correct(prompt)
-        st.write(m)
+        #m = tool.correct(prompt)
+        #st.write(m)
+        
+        m = tl.check(prompt)
+        print(len(m))
