@@ -18,4 +18,4 @@ with st.form(key='my_form'):
         #st.write(m)
         
         m = tool.check(prompt)
-        st.len(m)
+        st.write(m)
