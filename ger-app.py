@@ -1,10 +1,10 @@
 import streamlit as st
-import language_check from language_tool_python
+import language_check
 
 
 @st.cache(allow_output_mutation=True)
 def get_model():
-    tool = language_check.LanguageToolPublicAPI('en-US')
+    tool = language_check.LanguageTool('en-US')
     return tool
 
 
