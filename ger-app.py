@@ -17,5 +17,5 @@ with st.form(key='my_form'):
         #m = tool.correct(prompt)
         #st.write(m)
         
-        m = tl.check(prompt)
+        m = tool.check(prompt)
         print(len(m))
