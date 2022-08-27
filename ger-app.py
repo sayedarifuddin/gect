@@ -1,5 +1,5 @@
 import streamlit as st
-import language_tool_python
+import language_check
 
 
 @st.cache(allow_output_mutation=True)
