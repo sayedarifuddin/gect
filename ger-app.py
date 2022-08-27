@@ -7,7 +7,9 @@ def get_model():
     return tool
 
 tool = get_model()
-st.markdown("<h1 style='text-align: center; color: red;'>IMDb Review Sentiment Analysis</h1>", unsafe_allow_html=True)
+
+st.markdown("<h1 style='text-align: center; color: green;'>Grammar Error Counter (en-US)</h1>", unsafe_allow_html=True)
+
 with st.form(key='my_form'):
     prompt = st.text_area(label='Enter sentence', value=" ")
     submit_button = st.form_submit_button(label='Submit')
