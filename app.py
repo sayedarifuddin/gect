@@ -1,7 +1,7 @@
 import streamlit as st
 import language_tool_python
 
-@st.cache(allow_output_mutation=True)
+#@st.cache(allow_output_mutation=True)
 def get_model():
     tool = language_tool_python.LanguageToolPublicAPI('en-US')
     return tool
