@@ -1,2 +1,3 @@
 streamlit
-language_tool_python
+language-tool-python
+language-check
